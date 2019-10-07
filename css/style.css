@@ -1,0 +1,245 @@
+header {
+    background: url(../images/che.jpg);
+    background-repeat: no-repeat;
+    height: 768px;
+    background-size: contain;
+    background-size: 100%;
+}
+
+body {
+    font-family: "Libre Franklin";
+}
+
+.site-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+    padding-top: 93px;
+    padding-left: 165px;
+    float: left;
+    margin: 0;
+}
+
+header ul {
+    padding-left: 464px;
+}
+
+header li {
+    padding-left: 60px;
+    padding-top: 93px;
+    list-style-type: none;
+    float: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    padding-top: 267px;
+    padding-left: 165px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 78px;
+    align-items: center;
+    color: white;
+    margin: 0;
+}
+
+.description {
+    padding-left: 165px;
+    padding-top: 26px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+}
+
+.works-link {
+    padding-top: 126px;
+    padding-left: 165px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: white;
+}
+
+.about {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 93px;
+    margin-left: 165px;
+}
+
+section {
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 93px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+section p {
+    margin-top: 76px;
+    margin-bottom: 76px;
+}
+
+.skills {
+    background: #FFFAF2;
+    overflow: auto;
+}
+
+.skills h2 {
+    margin-bottom: 86px;
+}
+
+.skills img {
+    float: left;
+    margin-bottom: 40px;
+}
+
+.skills-description {
+    float: right;
+    margin-top: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.skills-description td {
+    width: 300px;
+}
+
+.table-first-line {
+    padding-bottom: 45px;
+}
+
+.table-first-column {
+    font-weight: 600;
+}
+
+progress {
+    border-radius: 2px; 
+    width: 381px;
+    height: 24px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #F5D6AB;
+    border-radius: 2px;
+}
+
+progress::-webkit-progress-value {
+    border-radius: 2px; 
+    background-color: #C66C49;
+}
+
+main li {
+    list-style-type: none;
+}
+
+main {
+    overflow: auto;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    margin-top: 86px;
+}
+
+.portfolio p {
+    float: left;
+    width: 350px;
+    margin-top: 35px;
+}
+
+.portfolio {
+    margin-bottom: 50px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 5vw);
+    grid-gap: 20px;
+    padding-left: 35px;
+    padding-top: 45px;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-item--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.gallery-item--2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.gallery-item--3 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.gallery-item--4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+footer {
+    background-color: #FFFAF2;
+    overflow: auto;
+}
+
+footer h2 {
+    margin-left: 165px;
+    padding-top: 80px;
+}
+
+footer li {
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 165px;
+    list-style-type: none;
+}
+
+footer ul {
+    padding: 0;
+    float: left;
+}
