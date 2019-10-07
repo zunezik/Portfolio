@@ -241,5 +241,11 @@ footer li {
 
 footer ul {
     padding: 0;
-    float: left;
+}
+
+.footer-section {
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
